@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #33475b;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -21,6 +31,15 @@
 
 .float-right {
   float: right;
+}
+
+.get-free {
+  padding: 10px 13px;
+  margin-left: 10px;
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+  background-color: #ff7a59;
+  color: white;
 }
 
 header {
@@ -49,30 +68,81 @@ header {
   height: 100%;
   width: 50%;
   line-height: 80px;
-  background-color: red;
+}
+
+.language {
+  border-right: 1px solid black;
+  padding-left: 5px;
+  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .nav-top-right {
   height: 100%;
   width: 50%;
   line-height: 80px;
-  background-color: blue;
+  text-align: right;
+}
+
+.nav-top-right a {
+  padding: 10px 13px;
+  margin-left: 20px;
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+}
+
+.nav-top-right i {
+  color: #10acc4;
+}
+
+.login {
+  color: #ff7a59;
 }
 
 .nav-bottom-left {
   height: 100%;
   width: 50%;
   line-height: 80px;
-  background-color: lightblue;
 }
 
 .nav-bottom-right {
   height: 100%;
   width: 50%;
   line-height: 80px;
-  background-color: yellow;
 }
+
+.nav-bottom-right ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+.nav-bottom-right ul li {
+  display: inline-block;
+}
+
+.nav-bottom-right ul li a i {
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
 
 .title {
   width: 40%;
+  margin-top: 100px;
+}
+
+.title h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.title p {
+  font-size: 13px;
+  line-height: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.nav-bottom-left img {
+  margin-top: 30px;
 }
