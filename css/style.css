@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+header {
+  height: 850px;
+  width: 100%;
+  background-color: #fff2ee;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.nav-top {
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+.nav-bottom {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+}
+
+.nav-top-left {
+  height: 100%;
+  width: 50%;
+  line-height: 80px;
+  background-color: red;
+}
+
+.nav-top-right {
+  height: 100%;
+  width: 50%;
+  line-height: 80px;
+  background-color: blue;
+}
+
+.nav-bottom-left {
+  height: 100%;
+  width: 50%;
+  line-height: 80px;
+  background-color: lightblue;
+}
+
+.nav-bottom-right {
+  height: 100%;
+  width: 50%;
+  line-height: 80px;
+  background-color: yellow;
+}
+
+.title {
+  width: 40%;
+}
