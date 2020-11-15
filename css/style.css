@@ -14,6 +14,15 @@ a {
   color: black;
 }
 
+h4 {
+  text-transform: uppercase;
+}
+
+/* /regole generali */
+
+/* classi riutilizzabili */
+
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -42,6 +51,9 @@ a {
   color: white;
 }
 
+/* /classi riutilizzabili */
+
+
 header {
   height: 850px;
   width: 100%;
@@ -49,6 +61,27 @@ header {
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
   background-position: bottom right;
+  position: relative;
+}
+
+/* header::before {
+  width: 100%;
+  height: 80px;
+  background-color: green;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: ("");
+  display: block;
+  color: blue;
+} */
+
+/* barra di navigazione */
+
+.nav {
+  display: unset;
 }
 
 .nav-top {
@@ -62,6 +95,9 @@ header {
   height: 80px;
   width: 100%;
   background-color: white;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 
 .nav-top-left {
@@ -145,4 +181,193 @@ header {
 
 .nav-bottom-left img {
   margin-top: 30px;
+}
+
+/* /barra di navogazione */
+
+main {
+  background-color: #f5f8fa;
+}
+
+.section-one {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.box-sec-one {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 1.6;
+}
+
+.section-one img {
+  width: 40%;
+}
+
+.section-two {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 5%;
+  background-color: white;
+}
+
+.section-two-left {
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.section-two-left .box-position {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.section-two-left .box-position .box-img img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  padding: 10px 13px;
+  margin-left: 10px;
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+  background-color: #ff7a59;
+  color: white;
+}
+
+.section-two-right {
+  width: 60%;
+  height: 100%;
+  line-height: 1.6;
+  position: relative;
+}
+
+.section-two-right h3 {
+  margin-bottom: 20px;
+}
+
+.section-two-right p {
+  margin-bottom: 20px;
+}
+
+.section-two-right .box-position span {
+  margin-right: 20px;
+}
+
+.section-two-right .box-position span i {
+  margin-right: 10px;
+  color: #ff7a59;
+}
+
+.section-two-right .box-position {
+position: absolute;
+left: 0;
+top: 50%;
+transform: translate(0%, -50%);
+}
+
+.section-three {
+  height: 650px;
+  width: 100%;
+  background-color: green;
+}
+
+.section-three-left {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  background-color: yellow;
+}
+
+.box {
+  padding: 10%;
+}
+
+.section-three-left img {
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-three-left p {
+  line-height: 1.6;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.section-three-left hr {
+  margin-bottom: 30px;
+}
+
+.section-three-left h4 {
+  margin-bottom: 30px;
+}
+
+.section-three-left ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.section-three-middle {
+  width: 30%;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  background-color: red;
+}
+
+.section-three-middle img {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-three-middle p {
+  line-height: 1.6;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.section-three-middle hr {
+  margin-bottom: 30px;
+}
+
+.section-three-middle h4 {
+  margin-bottom: 30px;
+}
+
+.section-three-middle ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+
+.section-three-right {
+  width: 30%;
+  height: 100%;
+  background-color: grey;
+}
+
+.section-four {
+  height: 400px;
+  width: 100%;
+  background-color: purple;
+}
+
+.section-five {
+  height: 400px;
+  width: 100%;
+  background-color: grey;
 }
