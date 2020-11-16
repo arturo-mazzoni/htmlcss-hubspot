@@ -55,7 +55,7 @@ h4 {
 
 
 header {
-  height: 850px;
+  height: 750px;
   width: 100%;
   background-color: #fff2ee;
   background-image: url("../img/jumbotron.png");
@@ -64,19 +64,19 @@ header {
   position: relative;
 }
 
-/* header::before {
+header::before {
   width: 100%;
   height: 80px;
-  background-color: green;
+  background-color: #6edbcd;
   border-top: 2px solid grey;
   border-bottom: 2px solid grey;
   position: absolute;
   bottom: 0;
   left: 0;
-  content: ("");
+  content: "";
   display: block;
   color: blue;
-} */
+}
 
 /* barra di navigazione */
 
@@ -87,6 +87,9 @@ header {
 .nav-top {
   height: 80px;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   border-bottom: 1px solid black;
   background-color: white;
 }
@@ -94,10 +97,11 @@ header {
 .nav-bottom {
   height: 80px;
   width: 100%;
+  margin-top: 80px;
   background-color: white;
-  position: sticky;
-  z-index: 1;
-  top: 0;
+  /* position: sticky; */
+  /* z-index: 1; */
+  /* top: 0; */
 }
 
 .nav-top-left {
@@ -276,16 +280,13 @@ transform: translate(0%, -50%);
 }
 
 .section-three {
-  height: 650px;
   width: 100%;
-  background-color: green;
 }
 
 .section-three-left {
   width: 30%;
-  height: 100%;
   text-align: center;
-  background-color: yellow;
+  background-color: white;
 }
 
 .box {
@@ -320,11 +321,10 @@ transform: translate(0%, -50%);
 
 .section-three-middle {
   width: 30%;
-  height: 100%;
   margin-left: 5%;
   margin-right: 5%;
   text-align: center;
-  background-color: red;
+  background-color: white;
 }
 
 .section-three-middle img {
@@ -356,18 +356,132 @@ transform: translate(0%, -50%);
 
 .section-three-right {
   width: 30%;
-  height: 100%;
-  background-color: grey;
+  text-align: center;
+  background-color: white;
 }
 
+.section-three-right img {
+  width: 37%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-three-right p {
+  line-height: 1.6;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.section-three-right hr {
+  margin-bottom: 30px;
+}
+
+.section-three-right h4 {
+  margin-bottom: 30px;
+}
+
+.section-three-right ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+
 .section-four {
-  height: 400px;
+  height: 600px;
   width: 100%;
-  background-color: purple;
+  background-color: #00adb4;
+}
+
+.table {
+  width: 100%;
+}
+
+.table-top {
+  text-align: center;
+  color: white;
+}
+
+.table-top h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+
+.table-top p {
+  line-height: 1.6;
+}
+
+.box-table {
+  width: calc(100% / 4);
+  line-height: 2.1;
+  padding-top: 30px;
+  text-align: center;
+  border-right: 1px solid white;
+  color: white;
+}
+
+.box-table:last-child {
+  border-right: 0px;
+}
+
+.top-row {
+  border-bottom: 1px solid white;
 }
 
 .section-five {
-  height: 400px;
+  height: 700px;
   width: 100%;
-  background-color: grey;
+}
+
+.section-five-top-left {
+  width: 40%;
+  text-align: center;
+  padding: 50px 150px;
+}
+
+.section-five-top-left h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.section-five-top-right {
+  width: 60%;
+  height: 200px;
+  padding: 50px;
+}
+
+.section-five-top-right ul {
+  text-align: center;
+}
+
+.section-five-top-right ul li {
+  display: inline-block;
+  line-height: 5.1;
+  padding: 0 10px;
+}
+
+.section-five-top-right ul li img {
+  width: 120px;
+}
+
+.section-five-bottom-left {
+  width: 40%;
+  height: 400px;
+}
+
+.section-five-bottom-left h2 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.section-five-bottom-left p {
+  line-height: 1.6;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.section-five-bottom-right img {
+  text-align:
 }
