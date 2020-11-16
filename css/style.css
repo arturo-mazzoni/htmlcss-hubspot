@@ -463,6 +463,7 @@ transform: translate(0%, -50%);
 
 .section-five-top-right ul li img {
   width: 120px;
+  vertical-align: middle;
 }
 
 .section-five-bottom-left {
@@ -484,4 +485,38 @@ transform: translate(0%, -50%);
 
 .section-five-bottom-right img {
   text-align:
+}
+
+footer {
+  width: 100%;
+  height: 600px;
+  background-color: #2d3e50;
+}
+
+.footer-top {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+.list-box {
+  width: 25%;
+  height: 100%;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.list-box ul li {
+  list-style-type: none;
+  line-height: 2;
+}
+
+.list-box ul li:first-child {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.list-box ul li:last-child {
+  margin-bottom: 50px 0;
+;
 }
